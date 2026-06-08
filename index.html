@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cleyver Quiroz — Portafolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="cursor"></div>
+  <div class="cursor-ring"></div>
+  <div class="ambient ambient-1"></div>
+  <div class="ambient ambient-2"></div>
+  <div class="ambient ambient-3"></div>
+
+  <nav>
+    <span class="logo">CQ<span>.</span>dev</span>
+    <ul class="nav-tabs">
+      <li><a href="#" class="active" data-page="inicio">Inicio</a></li>
+      <li><a href="#" data-page="sobre">Sobre mí</a></li>
+      <li><a href="#" data-page="habilidades">Habilidades</a></li>
+      <li><a href="#" data-page="proyectos">Proyectos</a></li>
+      <li><a href="#" data-page="certificaciones">Certificaciones</a></li>
+      <li><a href="#" data-page="contacto">Contacto</a></li>
+    </ul>
+    <button class="hamburguesa" id="hamburguesa" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="menu-movil" id="menu-movil">
+    <a href="#" data-page="inicio"          class="menu-movil-link active">Inicio</a>
+    <a href="#" data-page="sobre"           class="menu-movil-link">Sobre mí</a>
+    <a href="#" data-page="habilidades"     class="menu-movil-link">Habilidades</a>
+    <a href="#" data-page="proyectos"       class="menu-movil-link">Proyectos</a>
+    <a href="#" data-page="certificaciones" class="menu-movil-link">Certificaciones</a>
+    <a href="#" data-page="contacto"        class="menu-movil-link">Contacto</a>
+  </div>
+
+  <main>
+
+    <!-- INICIO -->
+    <section class="page active" id="inicio">
+      <div class="hero-texto">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-dot"></span>
+          Disponible para trabajar
+        </div>
+        <h1>Cleyver<span class="name-accent">Quiroz Martínez</span></h1>
+        <p class="hero-rol"><strong>Redes de Cómputo</strong> · Desarrollo Web · Bases de Datos · Análisis de Datos</p>
+        <p class="hero-desc">
+          Tecnólogo graduado en Gestión de Sistemas de Información y Redes de Cómputo —
+          Universidad del Sinú, Cartagena. Experiencia en redes Cisco, desarrollo web,
+          bases de datos y análisis de datos.
+        </p>
+        <div class="hero-btns">
+          <a href="#" class="btn-primary" data-page="proyectos">Ver proyectos →</a>
+          <a href="#" class="btn-outline"  data-page="contacto">Contactar</a>
+        </div>
+      </div>
+      <div class="hero-foto">
+        <div class="foto-orb"></div>
+        <div class="foto-container">
+          <div class="foto-anillo-outer"></div>
+          <div class="foto-anillo-inner"></div>
+          <div class="foto-anillo"><img src="img/foto.png" alt="Cleyver Quiroz"></div>
+        </div>
+        <div class="foto-badge">
+          <span class="badge-num">42</span>
+          <span class="badge-txt">materias aprobadas</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="page" id="sobre">
+      <div class="sobre-left">
+        <p class="tag-seccion">sobre mí</p>
+        <h2>¿Quién soy?</h2>
+        <p class="sobre-p">Soy <strong>Tecnólogo graduado</strong> en Gestión de Sistemas de Información y Redes de Cómputo de la Universidad del Sinú — Cartagena. Cuento con experiencia práctica en desarrollo web, bases de datos, análisis de datos y redes de cómputo bajo estándares Cisco.</p>
+        <p class="sobre-p">Durante mi <strong>práctica formativa</strong> en la Dirección de Biblioteca de la Universidad del Sinú, desarrollé módulos de un sistema web real usando PHP, MySQL, JavaScript y arquitectura MVC. Me caracterizo por aprender rápido, trabajar en equipo y siempre buscar la solución más limpia y eficiente.</p>
+        <div class="sobre-datos">
+          <div class="dato-fila"><span class="dato-punto"></span><span class="dato-label">Ciudad</span><span class="dato-val">Cartagena, Bolívar — Colombia</span></div>
+          <div class="dato-fila"><span class="dato-punto"></span><span class="dato-label">Email</span><span class="dato-val">quirozmartinez2003@gmail.com</span></div>
+          <div class="dato-fila"><span class="dato-punto"></span><span class="dato-label">Inglés</span><span class="dato-val">Nivel B1</span></div>
+          <div class="dato-fila"><span class="dato-punto"></span><span class="dato-label">Estado</span><span class="dato-val disponible">Disponible para trabajar ✓</span></div>
+        </div>
+      </div>
+      <div class="sobre-stats">
+        <div class="stat-box"><span class="stat-n">42</span><span class="stat-l">Materias aprobadas</span></div>
+        <div class="stat-box"><span class="stat-n">6</span><span class="stat-l">Certificaciones</span></div>
+        <div class="stat-box"><span class="stat-n">5</span><span class="stat-l">Meses de práctica</span></div>
+        <div class="stat-box"><span class="stat-n">B1</span><span class="stat-l">Nivel de inglés</span></div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="page" id="habilidades">
+      <div class="hab-top"><p class="tag-seccion">habilidades</p><h2>Habilidades técnicas</h2></div>
+      <div class="hab-grid">
+        <div class="hab-card">
+          <div class="hab-titulo" style="color:var(--cyan)"><span class="hab-punto" style="background:var(--cyan);box-shadow:0 0 8px var(--cyan)"></span>Redes &amp; Infraestructura</div>
+          <div class="tags">
+            <span class="tag tag-c">TCP/IP</span><span class="tag tag-c">Modelo OSI</span><span class="tag tag-c">OSPFv2</span><span class="tag tag-c">DNS · DHCP</span><span class="tag tag-c">Routers Cisco</span><span class="tag tag-c">Switches Cisco</span><span class="tag tag-c">Cisco Packet Tracer</span><span class="tag tag-c">Redes escalables</span><span class="tag tag-c">Soporte técnico de Sistemas</span>
+          </div>
+        </div>
+        <div class="hab-card">
+          <div class="hab-titulo" style="color:var(--accent2)"><span class="hab-punto" style="background:var(--accent2);box-shadow:0 0 8px var(--accent2)"></span>Desarrollo Web &amp; Bases de Datos</div>
+          <div class="tags">
+            <span class="tag tag-b">PHP</span><span class="tag tag-b">MySQL</span><span class="tag tag-b">HTML5</span><span class="tag tag-b">CSS3</span><span class="tag tag-b">JavaScript</span><span class="tag tag-b">Arquitectura MVC</span><span class="tag tag-b">Bases de datos relacionales</span><span class="tag tag-b">Data Analytics</span>
+          </div>
+        </div>
+        <div class="hab-card">
+          <div class="hab-titulo" style="color:var(--green)"><span class="hab-punto" style="background:var(--green);box-shadow:0 0 8px var(--green)"></span>Otros conocimientos</div>
+          <div class="tags">
+            <span class="tag tag-g">Windows</span><span class="tag tag-g">Gestión de proyectos</span><span class="tag tag-g">Ingeniería del software</span><span class="tag tag-g">Análisis de requisitos</span><span class="tag tag-g">Soporte técnico de sistemas</span><span class="tag tag-g">Inglés B1</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="page" id="proyectos">
+      <div class="proy-top"><p class="tag-seccion">proyectos</p><h2>Proyectos desarrollados</h2></div>
+      <div class="proy-grid">
+
+        <div class="proy-card">
+          <div class="proy-num">01 · Proyecto académico · Calificado</div>
+          <div class="proy-title">Sistema de tienda online — CRUD completo</div>
+          <div class="proy-desc">Base de datos relacional con 4 tablas — Productos, Clientes, Pedidos y Detalles de Pedido — relacionadas mediante llaves foráneas. Aplicación web completa con arquitectura MVC, consultas básicas y avanzadas, y seguridad mediante prepared statements. Materia: Base de Datos · Prof. Cristian Cuadrado · UniSinú 2024.</div>
+          <div class="proy-stack"><span class="sbadge">PHP</span><span class="sbadge">MySQL</span><span class="sbadge">MVC</span><span class="sbadge">SQL</span><span class="sbadge">HTML5</span><span class="sbadge">CSS3</span><span class="sbadge">JavaScript</span></div>
+          <div class="proy-ev">
+            <a href="archivos/actividad_tienda.pdf" target="_blank" class="ev-btn ev-pdf">📄 Ver actividad calificada</a>
+            <a href="archivos/tienda_codigo.zip" download class="ev-btn ev-zip">⬇ Código fuente</a>
+          </div>
+        </div>
+
+        <div class="proy-card">
+          <div class="proy-num">02 · Proyecto académico</div>
+          <div class="proy-title">Base de datos — Sistema hospitalario</div>
+          <div class="proy-desc">Diseño completo de base de datos relacional para gestión hospitalaria con 5 tablas — Paciente, Doctor, Cita, Sala e Ingreso. Incluye diagrama entidad-relación, modelo lógico relacional y diccionario de datos con descripción de cada variable. Materia: Base de Datos · UniSinú 2024.</div>
+          <div class="proy-stack"><span class="sbadge">MySQL</span><span class="sbadge">SQL</span><span class="sbadge">Modelado ER</span><span class="sbadge">Normalización</span><span class="sbadge">Diccionario de datos</span></div>
+          <div class="proy-ev">
+            <a href="archivos/bd_hospital_der.pdf"  target="_blank" class="ev-btn ev-pdf">📄 Ver DER</a>
+            <a href="archivos/bd_hospital_mdlr.pdf" target="_blank" class="ev-btn ev-pdf">📄 Modelo lógico</a>
+            <a href="archivos/bd_hospital_dd.pdf"   target="_blank" class="ev-btn ev-pdf">📄 Diccionario</a>
+          </div>
+        </div>
+
+        <div class="proy-card">
+          <div class="proy-num">03 · Proyecto académico</div>
+          <div class="proy-title">BD gestión de proyectos empresariales</div>
+          <div class="proy-desc">Modelo de base de datos relacional para gestión de proyectos con 7 tablas — Empleado, Proyecto, Cliente, Tarea y tablas intermedias para relaciones muchos a muchos. Demuestra manejo de relaciones complejas con integridad referencial. Materia: Base de Datos · UniSinú 2024.</div>
+          <div class="proy-stack"><span class="sbadge">MySQL</span><span class="sbadge">SQL</span><span class="sbadge">Modelado ER</span><span class="sbadge">Relaciones N:M</span><span class="sbadge">Normalización</span></div>
+          <div class="proy-img"><img src="img/bd_proyectos.png" alt="Modelo BD Gestión de Proyectos"></div>
+        </div>
+
+        <div class="proy-card">
+          <div class="proy-num">04 · Laboratorios de redes · Cisco Networking Academy</div>
+          <div class="proy-title">Laboratorios OSPFv2 — Cisco Packet Tracer</div>
+          <div class="proy-desc">Serie de 5 laboratorios prácticos de configuración del protocolo OSPFv2 bajo estándares Cisco. Cada laboratorio incluye documentación completa y archivo .pkt funcional verificable en Packet Tracer.</div>
+          <div class="proy-stack"><span class="sbadge">Cisco IOS</span><span class="sbadge">OSPFv2</span><span class="sbadge">Packet Tracer</span><span class="sbadge">Routing</span><span class="sbadge">DR / BDR</span></div>
+          <div class="ospf-lista">
+            <div class="ospf-item"><span class="ospf-nombre">Configuración punto a punto área única</span><div class="ospf-btns"><a href="archivos/ospf_punto_a_punto.pdf" target="_blank" class="ev-btn ev-pdf">📄 PDF</a><a href="archivos/ospf_punto_a_punto.pkt" download class="ev-btn ev-zip">⬇ .pkt</a></div></div>
+            <div class="ospf-item"><span class="ospf-nombre">Determinar el DR y el BDR</span><div class="ospf-btns"><a href="archivos/ospf_dr_bdr.pdf" target="_blank" class="ev-btn ev-pdf">📄 PDF</a><a href="archivos/ospf_dr_bdr.pkt" download class="ev-btn ev-zip">⬇ .pkt</a></div></div>
+            <div class="ospf-item"><span class="ospf-nombre">Modificar OSPFv2 área única</span><div class="ospf-btns"><a href="archivos/ospf_modificar.pdf" target="_blank" class="ev-btn ev-pdf">📄 PDF</a><a href="archivos/ospf_modificar.pkt" download class="ev-btn ev-zip">⬇ .pkt</a></div></div>
+            <div class="ospf-item"><span class="ospf-nombre">Propagar ruta predeterminada en OSPFv2</span><div class="ospf-btns"><a href="archivos/ospf_ruta_predeterminada.pdf" target="_blank" class="ev-btn ev-pdf">📄 PDF</a><a href="archivos/ospf_ruta_predeterminada.pkt" download class="ev-btn ev-zip">⬇ .pkt</a></div></div>
+            <div class="ospf-item"><span class="ospf-nombre">Configuración OSPFv2 área única completa</span><div class="ospf-btns"><a href="archivos/ospf_area_unica.pdf" target="_blank" class="ev-btn ev-pdf">📄 PDF</a><a href="archivos/ospf_area_unica.pkt" download class="ev-btn ev-zip">⬇ .pkt</a></div></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CERTIFICACIONES -->
+    <section class="page" id="certificaciones">
+      <div class="cert-top"><p class="tag-seccion">certificaciones</p><h2>Certificaciones y cursos</h2></div>
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-icono cert-icono-cisco">🎓</div>
+          <div class="cert-body">
+            <div class="cert-nombre">Introducción a Cisco Packet Tracer</div>
+            <div class="cert-entidad">Cisco Networking Academy</div>
+            <div class="cert-fecha">30 Abril 2026</div>
+            <div class="cert-id">ID: 101227b4-0679-4cee-b26f-b6865769cfe1</div>
+            <div class="cert-footer"><span class="cert-badge badge-done">✓ Completado</span><a href="archivos/cert_cisco_packet_tracer.pdf" target="_blank" class="cert-ver">Ver certificado →</a></div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icono cert-icono-analytics">📊</div>
+          <div class="cert-body">
+            <div class="cert-nombre">Fundamentos de Data Analytics</div>
+            <div class="cert-entidad">Accenture / Learning to Earning</div>
+            <div class="cert-fecha">1 Mayo 2026</div>
+            <div class="cert-footer"><span class="cert-badge badge-done">✓ Completado</span><a href="archivos/cert_data_analytics.pdf" target="_blank" class="cert-ver">Ver certificado →</a></div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icono cert-icono-sql">🗄️</div>
+          <div class="cert-body">
+            <div class="cert-nombre">Introducción a SQL</div>
+            <div class="cert-entidad">Accenture / Learning to Earning</div>
+            <div class="cert-fecha">2 Mayo 2026</div>
+            <div class="cert-footer"><span class="cert-badge badge-done">✓ Completado</span><a href="archivos/cert_sql.pdf" target="_blank" class="cert-ver">Ver certificado →</a></div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icono cert-icono-sql">🗄️</div>
+          <div class="cert-body">
+            <div class="cert-nombre">Consultas avanzadas con SQL</div>
+            <div class="cert-entidad">Accenture / Learning to Earning</div>
+            <div class="cert-fecha">4 Mayo 2026</div>
+            <div class="cert-footer"><span class="cert-badge badge-done">✓ Completado</span><a href="archivos/cert_sql_consultas_avanzadas.pdf" target="_blank" class="cert-ver">Ver certificado →</a></div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icono cert-icono-analytics">📊</div>
+          <div class="cert-body">
+            <div class="cert-nombre">Métodos estadísticos en data analytics</div>
+            <div class="cert-entidad">Accenture / Learning to Earning</div>
+            <div class="cert-fecha">6 Mayo 2026</div>
+            <div class="cert-footer"><span class="cert-badge badge-done">✓ Completado</span><a href="archivos/cert_metodos_estadisticos.pdf" target="_blank" class="cert-ver">Ver certificado →</a></div>
+          </div>
+        </div>
+
+        <div class="cert-card cert-progreso">
+          <div class="cert-icono cert-icono-redes">🌐</div>
+          <div class="cert-body">
+            <div class="cert-nombre">Conceptos Básicos de Redes</div>
+            <div class="cert-entidad">Cisco Networking Academy</div>
+            <div class="cert-fecha">2026 — En curso</div>
+            <div class="cert-footer"><span class="cert-badge badge-prog">⟳ En progreso</span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="page" id="contacto">
+      <div class="contacto-box">
+        <p class="tag-seccion" style="justify-content:center">contacto</p>
+        <h2>Hablemos 👋</h2>
+        <p class="contacto-sub">¡Hola! Soy Cleyver, tecnólogo recién graduado con ganas de aprender y aportar en redes, desarrollo web o análisis de datos. Si crees que puedo ser parte de tu equipo, me encantaría hablar contigo.</p>
+        <div class="contacto-items">
+          <a href="mailto:quirozmartinez2003@gmail.com" class="contacto-item">
+            <div class="contacto-icono">✉</div><div><div class="contacto-label">Email</div><div class="contacto-val">quirozmartinez2003@gmail.com</div></div>
+          </a>
+          <a href="https://linkedin.com/in/cleyver-quiroz" target="_blank" class="contacto-item">
+            <div class="contacto-icono">in</div><div><div class="contacto-label">LinkedIn</div><div class="contacto-val">linkedin.com/in/cleyver-quiroz</div></div>
+          </a>
+          <a href="tel:+573205649266" class="contacto-item">
+            <div class="contacto-icono">☎</div><div><div class="contacto-label">Teléfono</div><div class="contacto-val">320 564 9266 — Cartagena, Colombia</div></div>
+          </a>
+          <a href="archivos/Cleyver_Quiroz_CV.pdf" target="_blank" class="contacto-item">
+            <div class="contacto-icono">📄</div><div><div class="contacto-label">Hoja de vida</div><div class="contacto-val">Descargar CV en PDF</div></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
